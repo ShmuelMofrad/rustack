@@ -9,13 +9,12 @@
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon):",
+            "description": "Ubuntu version (use ubuntu-22.04 on local arm64/Apple Silicon):",
             "proposals": [
-				"bookworm",
-                "buster",
-                "bullseye"
+                "jammy",
+                "focal"
             ],
-            "default": "bullseye"
+            "default": "jammy"
         }
     },
     "platforms": [
